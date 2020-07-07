@@ -1,0 +1,94 @@
+body,html{
+  margin: 0;
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+#main-section{
+  height: auto;
+}
+
+#main-footer{
+  display: table-row;
+  height: 3px;
+}
+.carousel-item {
+  min-height: 700px;
+}
+.carousel-image-1 {
+  background-image: url(../images/image1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.carousel-image-2 {
+  background-image: url(../images/image2.jpg);
+  background-size: cover;
+}
+
+.carousel-image-3 {
+  background-image: url(../images/image3.jpg);
+  background-size: cover;
+}
+
+#carouselSection .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+/* #main-footer {
+  position :absolute;
+  bottom: 0px;
+  width: 100%;
+} */
+
+#member-section .img-member{
+  width: 50px;
+  height: 50px;
+}
+
+/* #home-heading{
+ min-height: 100px;
+} */
+
+
+#mission-section{
+  background-color: rgba(0, 246, 246, 0.7)
+}
+
+#category-section .a-category{
+  text-decoration: none;
+}
+
+#dashboard-menu .dashboard-menu-link{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+ 
+}
+
+#dashboard-menu .dashboard-menu-link:hover{
+  background-color: darkgrey;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+#dashboard-menu .dashboard-menu-link:active{
+  background-color: darkgrey;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+
+@media (max-width: 575px) {
+  body{
+    background-color: red !important;
+  }
+ 
+}
